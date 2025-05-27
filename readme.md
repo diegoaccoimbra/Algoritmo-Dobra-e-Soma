@@ -3,8 +3,6 @@
 ## 📝 Descrição
 Este trabalho prático tem como objetivo implementar o Algoritmo de Dobra e Soma para realizar multiplicaçõoes escalares eficientes em curvas de Edwards. As curvas de Edwards são uma forma de curva elíptica com propriedades aritméticas interessantes, particularmente no que diz respeito à completeza da lei de grupo.
 
----
-
 ### Curvas de Edwards
 Uma curva de Edwards sobre um corpo Fp é definida pela equação:
 
@@ -12,16 +10,12 @@ Uma curva de Edwards sobre um corpo Fp é definida pela equação:
 
 onde a, b, d ∈ Fp são constantes que satisfazem certas condições para garantir que a curva seja não-singular e completa.
 
----
-
 ### Lei do Grupo
 A lei de grupo para a adição de dois pontos P1 = (x1, y1) e P2 = (x2, y2) em uma curva de Edwards é dada por:
 
 ![alt text](img/lei-do-grupo.png)
 
 O ponto neutro da curva de Edwards é O = (0, 1)
-
----
 
 ### Algoritmo de Dobra e Soma
 O algoritmo de Dobra e Soma é um método eficiente para calcular o múltiplo escalar de um ponto em uma curva elíptica. Dado um ponto P e um inteiro n, o algoritmo calcula nP da seguinte forma:
