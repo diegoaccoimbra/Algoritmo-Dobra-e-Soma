@@ -1,17 +1,16 @@
 # Exemplos de entradas e saídas obtidas:
 
-Devem ser pontos que satisfaçam: ax² + by² = 1 + dx²y²
+Devem ser pontos que satisfaçam: ax² + y² = 1 + dx²y²
 
 ## Exemplo 1:
 
--x² + y² = 1 + 1x²y²
+-x² + y² = 1 + 3x²y²
 
 Onde:
 - a = -1
-- b = 1
-- d = 1
+- d = 3
 - p = (0, 1)
-- n = 2
+- n = 9
 
 Saída obtida: {'x': 0.0, 'y': 1.0}
 
@@ -19,58 +18,54 @@ Saída obtida: {'x': 0.0, 'y': 1.0}
 
 ## Exemplo 2:
 
--x² + y² = 1 + 2x²y²
+2x² + y² = 1 + 2x²y²
 
 Onde:
-- a = -1
-- b = 1
+- a = 2
 - d = 2
-- p = (2, 3)
-- n = 2
+- p = (1, 1)
+- n = 4
 
-Saída obtida: {'x': 0.1643835616438356, 'y': -0.18309859154929578}
+Saída obtida: {'x': 0.7058823529411764, 'y': 1.0}
 
 ---
 
 ## Exemplo 3:
 
--x² + y² = 1 + 5x²y²
+9x² + y² = 1 + 3x²y²
 
 Onde:
-- a = -1
-- b = 1
-- d = 5
+- a = 9
+- d = 3
 - p = (1, 2)
-- n = 3
+- n = 7
 
-Saída obtida: {'x': 0.23618090452261303, 'y': -0.22370617696160267}
+Saída obtida: {'x': -0.7418419341249286, 'y': -2.464193889735177}
 
 ---
 
 ## Exemplo 4:
 
--x² + y² = 1 + 4x²y²
+5x² + y² = 1 + 5x²y²
 
 Onde:
-- a = -1
-- b = 1
-- d = 4
-- p = (4, 1)
-- n = 2
+- a = 5
+- d = 5
+- p = (3, 1)
+- n = 14
 
-Saída obtida: {'x': 0.12307692307692308, 'y': -0.2698412698412698}
+Saída obtida: {'x': 0.4340685243916147, 'y': 1.0}
 
 ---
 
 ## Exemplo 5:
 
--x² + y² = 1 + 1x²y²
+10x² + y² = 1 + 2x²y²
 
 Onde:
-- a = -1
-- b = 1
-- d = 1
-- p = (1, 2)
+- a = 10
+- d = 2
+- p = (1, 3)
 - n = 5
 
-Saída obtida: {'x': -0.6690968101339404, 'y': 1.3108153794142055}
+Saída obtida: {'x': -1.134363755213181, 'y': -2.746270746288702}
