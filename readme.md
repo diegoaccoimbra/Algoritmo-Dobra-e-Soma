@@ -37,6 +37,8 @@ O algoritmo de Dobra e Soma é um método eficiente para calcular o múltiplo es
 
 ## 🛠️ Ferramentas utilizadas
 - Linguagem Python.
+- Matplotlib.
+- Numpy.
 
 ---
 
@@ -44,6 +46,7 @@ O algoritmo de Dobra e Soma é um método eficiente para calcular o múltiplo es
 - Lei de Grupo: implementa a operação de adição de dois pontos P1 e P2;
 - Conversão pra base binária: converte o inteiro fornecido pelo usuário para binário;
 - Algoritmo de Dobra e Soma: calcula o múltiplo escalar de um ponto P por um inteiro n.
+- Gráfico da curva e pontos: gera um gráfico que exibe a curva a partir das entradas fornecidas e com os pontos P e nP.
 
 ---
 
