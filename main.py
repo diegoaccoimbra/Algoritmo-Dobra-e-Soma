@@ -57,12 +57,12 @@ def plotar_curva_e_pontos(a, d, p, np):
     
     F = a * X**2 + Y**2 - 1 - d * X**2 * Y**2
 
-    plt.contour(X, Y, F, levels=[0], colors='blue', linewidths=1.5, linestyles='solid')
-    plt.axhline(0, color='gray', linewidth=0.5)
-    plt.axvline(0, color='gray', linewidth=0.5)
+    plt.contour(X, Y, F, levels = [0], colors = 'blue', linewidths = 1.5, linestyles = 'solid')
+    plt.axhline(0, color = 'gray', linewidth = 0.5)
+    plt.axvline(0, color = 'gray', linewidth = 0.5)
 
     plt.plot(p["x"], p["y"], 'go', label='Ponto P')
-    plt.plot(float(np["x"]), float(np["y"]), 'ro', label='nP = {}P'.format(n))
+    plt.plot(float(np["x"]), float(np["y"]), 'ro', label = 'nP = {}P'.format(n))
 
     plt.title("Curva de Edwards e Pontos")
     plt.xlabel("x")
